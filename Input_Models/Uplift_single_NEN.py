@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Literal, Optional, Tuple, Union
+from typing import Any, Dict, List, Literal, Optional, Tuple, Union, Annotated
 from Input_Models.Friction_Ranges import NonNegativeFloat
 from Input_Models.Report import PositiveFloat
 from pydantic import BaseModel, Field, conlist, confloat
